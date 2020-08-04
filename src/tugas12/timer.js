@@ -7,20 +7,17 @@ class Timer extends Component{
       super(props)
       this.state = {
         date: new Date(),
-        time: 0
+        time: this.props.start ? this.props.start : 0
       }
     }
   
     componentDidMount(){
-      if (this.props.start !== undefined){
-        this.setState({time: this.props.start})
-      }
       this.timerID = setInterval(() => this.tick(),1000);
     }
 
     componentDidUpdate(){
         if(this.state.time <= 0){
-            this.componentWillUnmount();
+            clearInterval(this.timerID);
         }
     }
   
@@ -28,7 +25,7 @@ class Timer extends Component{
       clearInterval(this.timerID);
     }
   
-    tick() {
+    tick = () =>{
       this.setState({
         date: new Date(),
         time: this.state.time - 1 
