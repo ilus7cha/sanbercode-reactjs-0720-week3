@@ -1,14 +1,14 @@
-table{
+table.tugas11{
     border: 1px solid;
     width: 700px;
     margin-left: 400px;
 }
 
-th{
+table.tugas11 th{
     background-color: #dcdcdc;
 }
 
-td{
+table.tugas11 td{
     background-color: coral;
     text-align: left;
 }

@@ -13,7 +13,7 @@ class HargaBuah extends React.Component {
   render() {
     return (
     
-    <table>
+    <table className= "tugas11">
         <tr>
             <th>Nama</th>
             <th>Harga</th>
