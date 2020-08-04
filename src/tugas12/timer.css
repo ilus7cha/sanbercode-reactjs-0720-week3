@@ -1,0 +1,12 @@
+table.tugas12{
+    margin: 0 auto;
+    width: 700px;
+}
+
+.date{
+    float: left;
+}
+
+.time{
+    float: right;
+}
