@@ -1,0 +1,31 @@
+table.tugas13{
+    border: 1px solid;
+    width: 700px;
+    margin: 0 auto;
+}
+
+table.tugas13 th{
+    background-color: #dcdcdc;
+}
+
+table.tugas13 td{
+    width: 200px;
+    background-color: coral;
+    text-align: left;
+}
+
+button.edit{
+    margin-left: 40px;
+}
+
+.form-price{
+    margin-top: 10px;
+}
+
+.form-height{
+    margin-top: 10px;
+}
+
+.form-submit{
+    margin-top: 10px;
+}

@@ -1,18 +1,22 @@
 import React from 'react';
 //import logo from './logo.svg';
 import './App.css';
-import HargaBuah from './tugas11';
+//import HargaBuah from './tugas11';
 import Timer from './tugas12/timer';
+import Lists from './tugas13/lists';
 
 function App() {
   return (
     <div className="App">
     {/* Tugas 11 */}
-      <h1>Tabel harga Buah</h1>
-      <HargaBuah />
+      {/*<h1>Tabel harga Buah</h1>*/}
+      {/*<HargaBuah />*/}
 
     {/* Tugas 12 */}
       <Timer start= {100} />
+
+    {/* Tugas 13 */}
+      <Lists />  
     </div>
   );
 }
