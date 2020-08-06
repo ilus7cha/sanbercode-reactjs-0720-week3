@@ -3,7 +3,7 @@ import React from 'react';
 import './App.css';
 //import HargaBuah from './tugas11';
 import Timer from './tugas12/timer';
-import Lists from './tugas13/lists';
+import Lists from './tugas14/lists';
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
     {/* Tugas 12 */}
       <Timer start= {100} />
 
-    {/* Tugas 13 */}
+    {/* Tugas 13 & Tugas 14 */}
       <Lists />  
     </div>
   );
