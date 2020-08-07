@@ -89,7 +89,7 @@ const Lists = () =>{
                     
                 axios.put(`http://backendexample.sanbercloud.com/api/fruits/${selectedId}`, {name, price, weight})
                 .then(res =>{
-                    console.log("blabla", res)
+                    console.log(res)
                     dataBuah[index] = res.data
                     setdataBuah(dataBuah)
                     
