@@ -12,7 +12,8 @@ let dataHargaBuah = [
 class HargaBuah extends React.Component {
   render() {
     return (
-    
+      <>
+      <h1>Tabel Harga Buah</h1>
     <table className= "tugas11">
         <tr>
             <th>Nama</th>
@@ -29,8 +30,9 @@ class HargaBuah extends React.Component {
                 </tr>
             )
         })}
-    </table>)
-  }
+    </table>
+    </>
+    )}
 }
 
 export default HargaBuah;
